@@ -2,6 +2,7 @@ while True:
     flat_number = int(input("Enter the flat number:"))
     floor_total = 9
     flatpfloor = 4
+    house_parts = 4
     try:
         if flat_number > 0 and flat_number <= (floor_total * flatpfloor * house_parts):    
             x = (flat_number/flatpfloor)
@@ -28,3 +29,4 @@ while True:
             print("No such flat in that house")
     finally:
         print()
+
